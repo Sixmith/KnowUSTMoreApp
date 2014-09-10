@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#ff327eff" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/sebtitle"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#ff327eff"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="#fffeff34"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:text="@string/Top1"
+        android:id="@+id/buttonActTwo1"
+        android:layout_gravity="left|center_vertical"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#fffeff34" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:text="@string/Top2"
+        android:id="@+id/buttonActTwo2"
+        android:layout_gravity="right|center_vertical"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#fffeff34" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:text="@string/Top3"
+        android:id="@+id/buttonActTwo3"
+        android:layout_gravity="left|bottom"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:background="#fffeff34" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="130dp"
+        android:text="@string/Top4"
+        android:id="@+id/buttonActTwo4"
+        android:layout_gravity="right|bottom"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#fffeff34" />
+</FrameLayout>

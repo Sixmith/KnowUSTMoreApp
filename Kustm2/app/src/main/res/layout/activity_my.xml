@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#ff327eff" >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:text="@string/buttonEnter"
+        android:id="@+id/buttonActOne"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#fffffe26"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="274dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="55dp"
+        android:textStyle="bold|italic"
+        android:textIsSelectable="false"
+        android:textColor="#fffaff09" />
+
+    <TextView
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titleInstruct"
+        android:id="@+id/textView2"
+        android:layout_gravity="center" />
+
+</FrameLayout>
